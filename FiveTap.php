@@ -1,5 +1,5 @@
 <?php
-$file = "./unkvip.txt";
+$file = "./FiveTap_VIPS.txt";
 $fh = fopen($file,'r+');
 $infouser = htmlspecialchars($_GET["user"]);
 $infopass = htmlspecialchars($_GET["pass"]);
